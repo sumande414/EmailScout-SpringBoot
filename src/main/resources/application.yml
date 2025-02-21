@@ -13,3 +13,8 @@ spring:
 
 base:
   url: ${BASE_URL}
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG

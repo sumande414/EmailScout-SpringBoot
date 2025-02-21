@@ -1,0 +1,9 @@
+package com.es.EmailScout.repositories;
+
+import com.es.EmailScout.entities.MonitoredEmail;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface MonitoredEmailRepository extends JpaRepository<MonitoredEmail, Integer> {
+}
